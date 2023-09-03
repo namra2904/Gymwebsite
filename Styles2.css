@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, address, form, input, textarea, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img5.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    /* Add your navigation styling here */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+
+.contact-section, .contact-form-section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+address {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
